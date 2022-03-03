@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@playwright/test': 1.19.1
+  '@playwright/test': 1.19.2
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': 1.0.0-next.291
   '@typescript-eslint/eslint-plugin': 5.10.1
@@ -21,7 +21,7 @@ specifiers:
   zx: 5.2.0
 
 devDependencies:
-  '@playwright/test': 1.19.1
+  '@playwright/test': 1.19.2
   '@sveltejs/adapter-auto': 1.0.0-next.30
   '@sveltejs/kit': 1.0.0-next.291_svelte@3.44.0
   '@typescript-eslint/eslint-plugin': 5.10.1_66fd760357c363ad2580db2ecc311e20
@@ -660,8 +660,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@playwright/test/1.19.1:
-    resolution: {integrity: sha512-NGWqJWP4N2HFyXlOSDwQSfgmige94p9KQvml62fJ5wg4sknfkyw+CnFeLUze8qvnGlS0PbVISMRV5JOE8EdxjQ==}
+  /@playwright/test/1.19.2:
+    resolution: {integrity: sha512-5oCmlYHjtOL662OxSkZBYGnoHWIQui7b4YHWNeSCYwhQjmjVcV5njRc8oBZlU8IwJgG7ZH2yhDk1haU96ygbWw==}
     engines: {node: '>=12'}
     hasBin: true
     dependencies:
@@ -697,7 +697,7 @@ packages:
       open: 8.4.0
       pirates: 4.0.4
       pixelmatch: 5.2.1
-      playwright-core: 1.19.1
+      playwright-core: 1.19.2
       pngjs: 6.0.0
       rimraf: 3.0.2
       source-map-support: 0.4.18
@@ -846,6 +846,7 @@ packages:
 
   /@types/yauzl/2.9.2:
     resolution: {integrity: sha512-8uALY5LTvSuHgloDVUvWP3pIauILm+8/0pDMokuDYIoNsOkSwd5AiHBTSEJjKTDcZr5z8UpgOWZkxBF4iJftoA==}
+    requiresBuild: true
     dependencies:
       '@types/node': 17.0.21
     dev: true
@@ -1399,6 +1400,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [android]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1407,6 +1409,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [android]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1415,6 +1418,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1423,6 +1427,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1431,6 +1436,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [freebsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1439,6 +1445,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [freebsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1447,6 +1454,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1455,6 +1463,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1463,6 +1472,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1471,6 +1481,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1479,6 +1490,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [mips64el]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1487,6 +1499,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ppc64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1495,6 +1508,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [riscv64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1503,6 +1517,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [s390x]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1511,6 +1526,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [netbsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1519,6 +1535,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [openbsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1527,6 +1544,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [sunos]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1535,6 +1553,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [win32]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1543,6 +1562,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1551,6 +1571,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [win32]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1924,6 +1945,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2626,8 +2648,8 @@ packages:
       find-up: 3.0.0
     dev: true
 
-  /playwright-core/1.19.1:
-    resolution: {integrity: sha512-+ByjhWX39PlINVRXr4ef9Kle85mk5QzA2WLioCoMQc3bSUtZpLV1mbeUDtRp/bvFw6YDIEyptj4QvzzRTXN3vg==}
+  /playwright-core/1.19.2:
+    resolution: {integrity: sha512-OsL3sJZIo1UxKNWSP7zW7sk3FyUGG06YRHxHeBw51eIOxTCQRx5t+hXd0cvXashN2CHnd3hIZTs2aKa/im4hZQ==}
     engines: {node: '>=12'}
     hasBin: true
     dependencies:
