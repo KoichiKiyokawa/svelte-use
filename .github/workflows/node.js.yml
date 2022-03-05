@@ -23,7 +23,7 @@ jobs:
           cache: 'pnpm'
       - run: pnpm i
       - run: pnpm run build # generate .svelte-kit/tsconfig.json
-      - run: pnpm run tsc --noEmit
+      - run: pnpm tsc --noEmit
       - run: pnpm run check
       - run: pnpm run lint
       - run: pnpm run package
