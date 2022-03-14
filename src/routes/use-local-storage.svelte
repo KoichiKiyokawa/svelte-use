@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { useLocalStorageValue } from '$lib/use-local-storage-value';
+	import { useLocalStorageValue } from '$lib/use-local-storage';
 
 	const value = useLocalStorageValue('key', 1);
 

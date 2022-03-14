@@ -3,5 +3,5 @@
  * Copyright (c) 2019-PRESENT Anthony Fu<https://github.com/antfu>
  */
 
-export { useLocalStorageValue } from './use-local-storage-value';
+export { useLocalStorageValue } from './use-local-storage';
 export { useEventListener } from './use-event-listener';

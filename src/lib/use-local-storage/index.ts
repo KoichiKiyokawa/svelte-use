@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store';
-import type { State } from './type';
+import type { State } from '../type';
 
 export function useLocalStorageValue<T>(key: string, value: T): State<T> {
 	const store = writable<T>(value);
