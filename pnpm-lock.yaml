@@ -15,7 +15,7 @@ specifiers:
   prettier-plugin-svelte: 2.6.0
   simple-git-hooks: 2.7.0
   svelte: 3.46.4
-  svelte-check: 2.4.5
+  svelte-check: 2.4.6
   svelte-preprocess: 4.10.4
   svelte2tsx: 0.5.6
   tsd: 0.19.1
@@ -39,7 +39,7 @@ devDependencies:
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.4
   simple-git-hooks: 2.7.0
   svelte: 3.46.4
-  svelte-check: 2.4.5_svelte@3.46.4
+  svelte-check: 2.4.6_svelte@3.46.4
   svelte-preprocess: 4.10.4_svelte@3.46.4+typescript@4.6.2
   svelte2tsx: 0.5.6_svelte@3.46.4+typescript@4.6.2
   tsd: 0.19.1
@@ -3599,8 +3599,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.4.5_svelte@3.46.4:
-    resolution: {integrity: sha512-nRft8BbG2wcxyCdHDZ7X43xLcvDzua3xLwq6wzHGcAF3ka3Jyhv2rvgq0+SF9NwHLMefp9C2XkM6etzsxK/cMQ==}
+  /svelte-check/2.4.6_svelte@3.46.4:
+    resolution: {integrity: sha512-luzdly7RJhyXucQe8ID/7CqDgXdMrPYXmyZBjCbp+cixzTopZotuWevrB5hWDOnOU19m2cyetigIIa7WDHnCmQ==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
