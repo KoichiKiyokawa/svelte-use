@@ -22,7 +22,7 @@ specifiers:
   tslib: 2.3.1
   typescript: 4.6.2
   vitest: 0.6.1
-  zx: 5.3.0
+  zx: 6.0.1
 
 devDependencies:
   '@playwright/test': 1.20.0
@@ -46,7 +46,7 @@ devDependencies:
   tslib: 2.3.1
   typescript: 4.6.2
   vitest: 0.6.1_jsdom@19.0.0
-  zx: 5.3.0
+  zx: 6.0.1
 
 packages:
 
@@ -4065,8 +4065,8 @@ packages:
       buffer-crc32: 0.2.13
     dev: true
 
-  /zx/5.3.0:
-    resolution: {integrity: sha512-woT7luj41wcHk9D/pGEJrENl5/tQLzVl5WPp+nQ+2h8vWQCTxDVGUm5TYEi5lqlY/F+13xCr/hl1Na6+JD+Edg==}
+  /zx/6.0.1:
+    resolution: {integrity: sha512-EOCZ7dB6a31ZnN48uTp80RamhAp8o71M1WmKXZ3sHKUojMlsH5VvLigubp4N76treuJM5Ar7pqMjHRTnu68qWw==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     dependencies:
