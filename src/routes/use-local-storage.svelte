@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { useLocalStorageValue } from '$lib/use-local-storage';
+	import { useLocalStorage } from '$lib/use-local-storage';
 
-	const value = useLocalStorageValue('key', 1);
+	const value = useLocalStorage('key', 1);
 
 	function hanleClick() {
 		$value = 2;
