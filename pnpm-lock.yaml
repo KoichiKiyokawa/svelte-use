@@ -21,7 +21,7 @@ specifiers:
   tsd: 0.19.1
   tslib: 2.3.1
   typescript: 4.6.3
-  vitest: 0.7.6
+  vitest: 0.7.11
   zx: 6.0.7
 
 devDependencies:
@@ -45,7 +45,7 @@ devDependencies:
   tsd: 0.19.1
   tslib: 2.3.1
   typescript: 4.6.3
-  vitest: 0.7.6_jsdom@19.0.0
+  vitest: 0.7.11_jsdom@19.0.0
   zx: 6.0.7
 
 packages:
@@ -3907,9 +3907,9 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.7.6_jsdom@19.0.0:
-    resolution: {integrity: sha512-fqk0cn0I2BUpzwLfeZ725JeXJ7WGwDtVcVBksQ6SdyjrBi6aex8t3w70TWgyLOXgylS7FJ8C9DRap4MMgpkqYw==}
-    engines: {node: '>=14.14.0'}
+  /vitest/0.7.11_jsdom@19.0.0:
+    resolution: {integrity: sha512-xCEUBCpqiIVhUFIMCKKXDZ/bcPLk2EhPmTFA9qw+Kf+B2d/gm3ZBdUAMa3jIZNZ/d3esji5H6XZPNAk//9K4Kw==}
+    engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
       '@vitest/ui': '*'
