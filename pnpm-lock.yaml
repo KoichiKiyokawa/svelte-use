@@ -18,7 +18,7 @@ specifiers:
   svelte-check: 2.4.6
   svelte-preprocess: 4.10.4
   svelte2tsx: 0.5.6
-  tsd: 0.19.1
+  tsd: 0.20.0
   tslib: 2.3.1
   typescript: 4.6.3
   vitest: 0.8.1
@@ -42,7 +42,7 @@ devDependencies:
   svelte-check: 2.4.6_svelte@3.46.6
   svelte-preprocess: 4.10.4_svelte@3.46.6+typescript@4.6.3
   svelte2tsx: 0.5.6_svelte@3.46.6+typescript@4.6.3
-  tsd: 0.19.1
+  tsd: 0.20.0
   tslib: 2.3.1
   typescript: 4.6.3
   vitest: 0.8.1_jsdom@19.0.0
@@ -766,8 +766,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@tsd/typescript/4.5.5:
-    resolution: {integrity: sha512-TxQ9QiUT94ZjKu++ta/iwTMVHsix4ApohnaHPTSd58WQuTjPIELP0tUYcW7lT6psz7yZiU4eRw+X4v/XV830Sw==}
+  /@tsd/typescript/4.6.3:
+    resolution: {integrity: sha512-WjipklCf6qWQL4Hkw+FSwOXMA5JqKv04ro/c1aviYSzLJFdcFMrR/FHjOGBIEAIq7pb8Bw74wd+G45dWfC/Jnw==}
     hasBin: true
     dev: true
 
@@ -3786,12 +3786,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /tsd/0.19.1:
-    resolution: {integrity: sha512-pSwchclr+ADdxlahRUQXUrdAIOjXx1T1PQV+fLfVLuo/S4z+T00YU84fH8iPlZxyA2pWgJjo42BG1p9SDb4NOw==}
+  /tsd/0.20.0:
+    resolution: {integrity: sha512-iba/JlyT3qtnA9t8VrX2Fipu3L31U48oRIf1PNs+lIwQ7n63GTkt9eQlB5bLtfb7nYfy9t8oZzs+K4QEoEIS8Q==}
     engines: {node: '>=12'}
     hasBin: true
     dependencies:
-      '@tsd/typescript': 4.5.5
+      '@tsd/typescript': 4.6.3
       eslint-formatter-pretty: 4.1.0
       globby: 11.1.0
       meow: 9.0.0
