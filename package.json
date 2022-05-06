@@ -37,7 +37,7 @@
 		"tsd": "0.20.0",
 		"tslib": "2.4.0",
 		"typescript": "4.6.4",
-		"vitest": "0.10.2",
+		"vitest": "0.10.5",
 		"zx": "6.1.0"
 	},
 	"type": "module",
