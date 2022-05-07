@@ -41,7 +41,7 @@
 		"zx": "6.1.0"
 	},
 	"type": "module",
-	"packageManager": "pnpm@7.0.0",
+	"packageManager": "pnpm@7.0.1",
 	"simple-git-hooks": {
 		"pre-commit": "pnpm lint-staged"
 	},
