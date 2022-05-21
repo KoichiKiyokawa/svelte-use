@@ -17,7 +17,7 @@
 		"list-routes": "zx scripts/list-routes.mjs"
 	},
 	"devDependencies": {
-		"@playwright/test": "1.22.1",
+		"@playwright/test": "1.22.2",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "1.0.0-next.338",
 		"@typescript-eslint/eslint-plugin": "5.25.0",
@@ -37,7 +37,7 @@
 		"tsd": "0.20.0",
 		"tslib": "2.4.0",
 		"typescript": "4.6.4",
-		"vitest": "0.12.7",
+		"vitest": "0.12.9",
 		"zx": "6.1.0"
 	},
 	"type": "module",
