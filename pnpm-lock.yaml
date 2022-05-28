@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@playwright/test': 1.22.2
   '@sveltejs/adapter-auto': next
-  '@sveltejs/kit': 1.0.0-next.344
+  '@sveltejs/kit': 1.0.0-next.345
   '@typescript-eslint/eslint-plugin': 5.26.0
   '@typescript-eslint/parser': 5.26.0
   eslint: 8.16.0
@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 12.4.2
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0
-  simple-git-hooks: 2.7.0
+  simple-git-hooks: 2.8.0
   svelte: 3.48.0
   svelte-check: 2.7.1
   svelte-preprocess: 4.10.6
@@ -27,7 +27,7 @@ specifiers:
 devDependencies:
   '@playwright/test': 1.22.2
   '@sveltejs/adapter-auto': 1.0.0-next.48
-  '@sveltejs/kit': 1.0.0-next.344_svelte@3.48.0
+  '@sveltejs/kit': 1.0.0-next.345_svelte@3.48.0
   '@typescript-eslint/eslint-plugin': 5.26.0_hzuh7e2up357pvq3mkokjvu2lq
   '@typescript-eslint/parser': 5.26.0_xztl6dhthcahlo6akmb2bmjmle
   eslint: 8.16.0
@@ -37,7 +37,7 @@ devDependencies:
   lint-staged: 12.4.2
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0_kkjbqzpydplecjtkxrgomroeru
-  simple-git-hooks: 2.7.0
+  simple-git-hooks: 2.8.0
   svelte: 3.48.0
   svelte-check: 2.7.1_svelte@3.48.0
   svelte-preprocess: 4.10.6_rxzurg3hjloskwsrdpptpplucy
@@ -216,8 +216,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.344_svelte@3.48.0:
-    resolution: {integrity: sha512-IKFyB/ErD1E6/Gl/AKA2EvOPmu6jdHDIoDYStL0PP12ZASOKTPNfSgusPHMNOTV+qyJKwo8JdOTWwLuFmZLq8A==}
+  /@sveltejs/kit/1.0.0-next.345_svelte@3.48.0:
+    resolution: {integrity: sha512-2nLZoXZ02uXMSxqRAMRCr/J4aCphqgKLxEhRRyh3c3aWLAjWiDWLDcvSB770eHt3y0MkYrTvp7JrDF7RhfyuBA==}
     engines: {node: '>=16.7'}
     hasBin: true
     peerDependencies:
@@ -791,7 +791,7 @@ packages:
     dev: true
 
   /code-point-at/1.1.0:
-    resolution: {integrity: sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=}
+    resolution: {integrity: sha512-RpAVKQA5T63xEj6/giIbUEtZwJ4UFIc3ZtvEkiaUERylqe8xb5IvqcgOurZLahv93CLKfxcw5YI+DZcUBRyLXA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -842,7 +842,7 @@ packages:
     dev: true
 
   /console-control-strings/1.1.0:
-    resolution: {integrity: sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=}
+    resolution: {integrity: sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==}
     dev: true
 
   /core-util-is/1.0.3:
@@ -971,7 +971,7 @@ packages:
     dev: true
 
   /delegates/1.0.0:
-    resolution: {integrity: sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=}
+    resolution: {integrity: sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==}
     dev: true
 
   /detect-indent/6.1.0:
@@ -980,7 +980,7 @@ packages:
     dev: true
 
   /detect-libc/1.0.3:
-    resolution: {integrity: sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=}
+    resolution: {integrity: sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==}
     engines: {node: '>=0.10'}
     hasBin: true
     dev: true
@@ -1582,7 +1582,7 @@ packages:
     dev: true
 
   /fs.realpath/1.0.0:
-    resolution: {integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=}
+    resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
 
   /fsevents/2.3.2:
@@ -1602,7 +1602,7 @@ packages:
     dev: true
 
   /gauge/2.7.4:
-    resolution: {integrity: sha1-LANAXHU4w51+s3sxcCLjJfsBi/c=}
+    resolution: {integrity: sha512-14x4kjc6lkD3ltw589k0NrPD6cCNTD6CWoVUNpB85+DrtONoZn+Rug6xZU5RvSC4+TZPxA5AnBibQYAvZn41Hg==}
     dependencies:
       aproba: 1.2.0
       console-control-strings: 1.1.0
@@ -2931,8 +2931,8 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /simple-git-hooks/2.7.0:
-    resolution: {integrity: sha512-nQe6ASMO9zn5/htIrU37xEIHGr9E6wikXelLbOeTcfsX2O++DHaVug7RSQoq+kO7DvZTH37WA5gW49hN9HTDmQ==}
+  /simple-git-hooks/2.8.0:
+    resolution: {integrity: sha512-ocmZQORwa6x9mxg+gVIAp5o4wXiWOHGXyrDBA0+UxGKIEKOyFtL4LWNKkP/2ornQPdlnlDGDteVeYP5FjhIoWA==}
     hasBin: true
     requiresBuild: true
     dev: true
