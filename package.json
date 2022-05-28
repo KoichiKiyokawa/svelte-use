@@ -19,7 +19,7 @@
 	"devDependencies": {
 		"@playwright/test": "1.22.2",
 		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/kit": "1.0.0-next.344",
+		"@sveltejs/kit": "1.0.0-next.345",
 		"@typescript-eslint/eslint-plugin": "5.26.0",
 		"@typescript-eslint/parser": "5.26.0",
 		"eslint": "8.16.0",
@@ -29,7 +29,7 @@
 		"lint-staged": "12.4.2",
 		"prettier": "2.6.2",
 		"prettier-plugin-svelte": "2.7.0",
-		"simple-git-hooks": "2.7.0",
+		"simple-git-hooks": "2.8.0",
 		"svelte": "3.48.0",
 		"svelte-check": "2.7.1",
 		"svelte-preprocess": "4.10.6",
@@ -41,7 +41,7 @@
 		"zx": "6.1.0"
 	},
 	"type": "module",
-	"packageManager": "pnpm@7.1.5",
+	"packageManager": "pnpm@7.1.6",
 	"simple-git-hooks": {
 		"pre-commit": "pnpm lint-staged"
 	},
