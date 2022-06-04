@@ -19,10 +19,10 @@
 	"devDependencies": {
 		"@playwright/test": "1.22.2",
 		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/kit": "1.0.0-next.345",
-		"@typescript-eslint/eslint-plugin": "5.26.0",
-		"@typescript-eslint/parser": "5.26.0",
-		"eslint": "8.16.0",
+		"@sveltejs/kit": "1.0.0-next.348",
+		"@typescript-eslint/eslint-plugin": "5.27.0",
+		"@typescript-eslint/parser": "5.27.0",
+		"eslint": "8.17.0",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-plugin-svelte3": "4.0.0",
 		"jsdom": "19.0.0",
@@ -31,17 +31,17 @@
 		"prettier-plugin-svelte": "2.7.0",
 		"simple-git-hooks": "2.8.0",
 		"svelte": "3.48.0",
-		"svelte-check": "2.7.1",
-		"svelte-preprocess": "4.10.6",
+		"svelte-check": "2.7.2",
+		"svelte-preprocess": "4.10.7",
 		"svelte2tsx": "0.5.10",
 		"tsd": "0.20.0",
 		"tslib": "2.4.0",
-		"typescript": "4.7.2",
-		"vitest": "0.13.0",
-		"zx": "6.1.0"
+		"typescript": "4.7.3",
+		"vitest": "0.13.1",
+		"zx": "6.2.2"
 	},
 	"type": "module",
-	"packageManager": "pnpm@7.1.7",
+	"packageManager": "pnpm@7.1.8",
 	"simple-git-hooks": {
 		"pre-commit": "pnpm lint-staged"
 	},
