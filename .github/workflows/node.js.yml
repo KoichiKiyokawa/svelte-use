@@ -22,7 +22,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
       - run: pnpm i
-      - run: pnpm run build # generate .svelte-kit/tsconfig.json
+      - run: pnpm run sync # generate .svelte-kit/tsconfig.json
       - run: pnpm tsc --noEmit
       - run: pnpm run check
       - run: pnpm run lint
