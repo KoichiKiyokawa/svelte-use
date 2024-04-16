@@ -33,7 +33,7 @@
 		"simple-git-hooks": "2.8.0",
 		"svelte": "3.49.0",
 		"svelte-check": "2.8.0",
-		"svelte-preprocess": "4.10.7",
+		"svelte-preprocess": "5.1.4",
 		"svelte2tsx": "0.5.13",
 		"tsd": "0.22.0",
 		"tslib": "2.4.0",
